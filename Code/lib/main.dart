@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 
-import 'Pages/calculatorApp.dart';
-import 'Pages/intro.dart';
-import 'Pages/stopwatch.dart';
+import 'calculatorApp.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +15,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
 
-      home:stopwatch(),
+      home:calculator(),
     );
   }
 }
